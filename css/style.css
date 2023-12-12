@@ -1,0 +1,125 @@
+:root {
+    --jmu-purple: #450084;
+    --jmu-gold: #CBB677;
+    --med-purple: #B599CE;
+    --light-purple: #DACCE6;
+    --dark-gold: #AD9C65;
+    --light-gold: #F4EFE1;
+    --slate-gray: #333333;
+    --dark-gray: #595959;
+    --med-gray: #B2B2B2;
+    --light-gray: #D6D6D6;
+    --dark-green: #5F791C;
+    --med-green: #ADCC23;
+    --light-green: #DEEBA7;
+    --dark-blue: #3C738B;
+    --med-blue: #5498B6;
+    --light-blue: #D2EBF5;
+    --red: #A4232B;
+
+    --bs-navbar-active-color: white;
+}
+
+.pgHead {
+    padding-left: 2em;
+    text-decoration: underline;
+}
+
+.hpEvents {
+    padding-left: 3.5em;
+}
+
+.sportHead {
+    padding-left: 1.5em;
+}
+
+.hpSportEvent {
+    padding-left: 4.5em;
+}
+
+.navbar {
+    background-color: var(--jmu-purple);
+    height: 80px;
+}
+
+.navbar a {
+    color: var(--light-gray);
+}
+
+.navbar a .active {
+    color: var(--med-gray);
+}
+
+.navbar a:active, .navbar a:hover, .nav-link && .active, .dropdown-menu a {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: var(--med-purple);
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+        background-color: var(--med-purple);
+    }
+  }
+
+.navbar-collapse a {
+    padding-left: 20px;
+}
+
+.navbar-brand img {
+    max-height: 2em;
+    max-width: fit-content;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--light-purple);
+}
+
+.seasonOver {
+    color: var(--dark-gray)
+}
+
+.unknown {
+    font-style: italic;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.jumbotron {
+    background-color: var(--light-purple);
+    border: 6em solid var(--light-purple);
+    margin-bottom: 6em;
+}
+
+.carousel {
+    max-width: 30em;
+    max-height: fit-content;
+    position: absolute;
+    margin-left: 40em;
+}
+
+@media only screen and (max-width: 1399px) {
+    .carousel {
+        width: 400px;
+        position:static;
+        margin: 0em;
+    }
+}
+.gameStatNumber {
+    font-weight: 300;
+}
+
+.btn-purple {
+    background-color: var(--jmu-purple);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+a.btn-purple:hover {
+    background-color: var(--jmu-gold);
+}
